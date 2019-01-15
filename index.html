@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bơ - Bảo An</title>
+	<link rel="stylesheet" href="an.css"><link rel="icon" href="bosmall.jpg">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126045141-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-126045141-1');
+	</script>
+</head>
+<body>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.2&appId=167720593256886&autoLogAppEvents=1';
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	<div class="tab">
+		<button class="tablinks" onclick="o(event, home)" id=defaultOpen><a href="https://n85.github.io/an" style='text-decoration: none'>Home</a></button>
+		<button class="tablinks" onclick="o(event, aboutMe)">About me</button>
+		<button class="tablinks" onclick="o(event, contactMe)">Contact me</button>
+		<button class="tablinks" onclick="o(event, decor)">Name</button>
+	</div>
+	<div id="home" class="tabcontent">
+		<div id=sc>
+			<div id=scp></div>
+			<a class=pr onclick="p(-1)">Prev</a><a class="next" onclick="p(1)">Next</a>
+		</div><br>
+		<div style="text-align:center" id=csd>
+		</div>
+	</div>
+	<div id="aboutMe" class="tabcontent">
+		<button class="accordion">Birthday</button>
+		<div class="panel"><p>May 22<sup>th</sup> - 2018</p></div>
+		<button class="accordion">Video</button>
+		<div class="panel"><video autoplay controls style="margin-left: 30vw; margin-top: 1vw"><source src="bo.mp4"></video></div>
+		<button class=accordion>Declare</button>
+		<div class=panel>
+			<p>
+				<h3 id=mytime style='display: inline'></h3>
+        		<span>left, i will work for <a href="https://www.fpt-software.com/">Fsoft</a> as software engineer (Jan 1<sup>st</sup>, 2028)</span>
+        	</p>
+		</div>
+		<button class="accordion">My Yearsold</button>
+		<div class="panel"><h3 id=yearsold></h3></div>
+		<img src="b.png" id=flya><img src="b.png" id=flyb>
+	</div>
+	<div id="contactMe" class="tabcontent">
+		<button class="accordion">Place</button>
+		<div class="panel">
+			<p>Native Domicile: Namdinh, Vietnam / Residence: Thanhliet Ward, Thanhtri District, Hanoi, Vietnam</p>
+		</div>
+		<div id="main">
+			<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Relatives & me</span><br>
+			Counter PageViews: <img src="http://hitwebcounter.com/counter/counter.php?page=7014449&style=0001&nbdigits=9&type=page&initCount=0" Alt="web page hit counters codes Free"><br/>
+			Counter UniqueVisitors: <img src="http://hitwebcounter.com/counter/counter.php?page=7014451&style=0001&nbdigits=9&type=ip&initCount=0" Alt="web page hit counters codes Free">
+		</div>
+		<div class="fb-comments" data-href="https://www.facebook.com/vubaoan2018" data-numposts="15"></div>
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a target="_blank" href="https://www.facebook.com/nam.vh85">Father FB</a>
+			<a target="_blank" href="https://www.facebook.com/trangbicky.bicky">Mother FB</a>
+			<a target="_blank" href="https://www.facebook.com/vubaoan2018">My FanPage FB</a>
+			<a target="_blank" href="https://www.facebook.com/ha.chjp.54">Aunt Hà FB</a>
+			<a target="_blank" href="https://www.facebook.com/ngocle.duy.52">Uncle Duy FB</a>
+			<a target="_blank" href="https://www.facebook.com/wild.rose.ha">Uncle Hà FB</a>
+		</div>
+	</div>
+	<div id=decor class=tabcontent>
+		<div id=cn>
+			<img src="hải.png"><img src="nam.png"><img src="đích.png"><img src="nhi.png"><img src="tử.png">
+		</div>
+		<div id=vba>
+			<table border=20><td id=namea bgcolor=lavender>z</td></table>
+			<p id=nameb>z</p><p id=namec>z</p>
+			<img src="vũ.png"><img src="bảo.png"><img src="an.png">
+		</div>
+		<div id=anbo>
+			<img src="an1.jpg" width=25%><img src="an2.jpg" width=25%><img src="an3.jpg" width=25%>
+		</div>
+	</div>
+	<script src="an.js"></script>
+</body>
+</html>
